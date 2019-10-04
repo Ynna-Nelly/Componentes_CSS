@@ -1,0 +1,32 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: 2s all ease-out;
+    animation: 2s girar linear forwards;
+}
+
+div:hover{
+    background-color: black;
+    transform: rotateZ(45deg);
+}
+
+@keyframes girar {
+    0%{
+        transform: rotate(0deg);
+        background: #000;
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    75%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0px);
+        background: #ddd;
+    }
+}
+
+
+
