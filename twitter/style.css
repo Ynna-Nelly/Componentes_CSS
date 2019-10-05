@@ -10,16 +10,23 @@
     padding: 10px;
     padding-left: 20px;
     width: 290px;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
  }
 
+#logo{
+   color: white;
+   margin-top:20px;
+   margin-left: 20px;
+   font-size: 25px;
+   margin-bottom: 10px;
+}
 
  .container {
     margin: 20px;
     width: 300px;
     background:#14202B;
-    height: 400px;
+    height: 450px;
  }
  .container li {
     list-style: none;
@@ -41,14 +48,16 @@
     background-color: #3C9AEB;
     font-weight: 600;
     float: left;
-    height: 60px;
-    width: 450px;
+    height: 40px;
+    width: 200px;
     color: white;
     font-weight: 300;
     font-size: 18px;
-    border-radius: 30px;
-    margin-top: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
     border: none;
+    text-align: center;
+    margin-left: 20px;
 }
 
 li > img{
