@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-family: sans-serif;
+ }
 
 .container li {
     list-style: none;
@@ -10,23 +11,15 @@
     padding-left: 20px;
     width: 290px;
     font-size: 16px;
+    color: white;
  }
- .container li:hover {
-    background: #fff;
-    border: 1px solid #333;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
- }
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
- }
+
+
  .container {
     margin: 20px;
     width: 300px;
-    background: #eee;
+    background:#14202B;
+    height: 400px;
  }
  .container li {
     list-style: none;
@@ -36,13 +29,30 @@
     font-size: 16px;
  }
  .container li:hover {
-    background: #fff;
-    border: 1px solid #333;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
+    color: rgb(35, 132, 223);
  }
  .container li > i {
     width: 20px;
     text-align: center;
     margin-right: 10px;
  }
+
+ button{
+    background-color: #3C9AEB;
+    font-weight: 600;
+    float: left;
+    height: 60px;
+    width: 450px;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: none;
+}
+
+li > img{
+    width:20px;
+    height: auto;
+    margin-right: 10px;
+}
